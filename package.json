@@ -1,0 +1,18 @@
+{
+  "name": "life-in-weeks",
+  "version": "1.0.0",
+  "description": "A Firefox extension that shows your life in weeks on new tabs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd extension && zip -r ../life-in-weeks.xpi *",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "new-tab",
+    "life-calendar"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
